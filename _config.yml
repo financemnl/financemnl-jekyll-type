@@ -4,6 +4,8 @@ url: "https://financemnl.com"
 title: FinanceMNL # site's title
 description: "A Filipino Millennial's Approach on Personal Finance." # used by search engines
 
+# Netlify Tweaks
+include: "_headers"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
