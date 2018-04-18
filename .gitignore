@@ -16,6 +16,5 @@ _development_tool/*
 *.scssc
 
 # Theme Gem files
-Gemfile.lock
 *.gem
 
