@@ -2,11 +2,11 @@
 layout: post
 title: How to Handle Your Peso
 tags:
-  - finance
+  - personal finance
+  - emergency fund
   - money
 categories:
-  - personal finance
-  - common
+  - general
 excerpt_separator: <!--more-->
 ---
 

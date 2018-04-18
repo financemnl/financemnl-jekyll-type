@@ -78,6 +78,7 @@ theme_settings:
 paginate: 5
 paginate_path: "blog/page:num"
 
+permalink: /posts/:slug
 
 # FEATURED USERS/PORTFOLIO
 collections:
