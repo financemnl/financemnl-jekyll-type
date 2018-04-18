@@ -4,5 +4,11 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   #Content-Security-Policy-Report-Only: default-src https: 'unsafe-inline' 'unsafe-eval';
-/assets/*
-  Cache-Control: public, max-age=360000
+/assets/favicon.ico
+  Cache-Control: max-age=31536000
+/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+  Cache-Control: max-age=31536000
+//cdn.jsdelivr.net/npm/ga-lite@1/dist/ga-lite.min.js
+  Cache-Control: max-age=31536000
+/assets/css/font-awesome.min.css'
+  Cache-Control: max-age=31536000
