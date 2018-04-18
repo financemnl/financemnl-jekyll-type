@@ -29,7 +29,7 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
-    
+
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
@@ -113,6 +113,10 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-tagging-related_posts, jekyll/tagging]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
