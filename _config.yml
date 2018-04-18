@@ -71,8 +71,7 @@ theme_settings:
   google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
 
   # Post navigation
-  post_navigation: true
-
+  post_navigation: false
 
 # PAGINATION
 paginate: 5
@@ -80,12 +79,12 @@ paginate_path: "blog/page:num"
 
 permalink: /posts/:slug
 
-# FEATURED USERS/PORTFOLIO
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:name
-
+# # FEATURED USERS/PORTFOLIO
+# collections:
+#   portfolio:
+#     output: true
+#     permalink: /:collection/:name
+#
 
 # BUILD SETTINGS
 markdown: kramdown
@@ -93,6 +92,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-plugins: [jekyll-paginate, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-tagging-related_posts, jekyll/tagging]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
