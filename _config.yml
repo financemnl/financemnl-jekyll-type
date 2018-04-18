@@ -49,9 +49,7 @@ theme_settings:
 
   # Scripts / Features
   google_analytics: UA-117242242-1 # Tracking ID, e.g. "UA-000000-01"
-  graphcomment_shortname: FinanceMNL
-  katex: false # Enable if using math markup
-  portfolio: false # Featured users
+  disqus_shortname: FinanceMNL
   search: true
   tags: true
 

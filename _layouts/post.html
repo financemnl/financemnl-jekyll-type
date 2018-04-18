@@ -20,10 +20,10 @@ layout: default
   {% include tags_list.html tags=tag_list %}
 </article>
 
-<!-- GraphComment -->
-{% if site.theme_settings.graphcomment_shortname %}
+<!-- Disqus -->
+{% if site.theme_settings.disqus_shortname %}
 <div class="comments">
-  {% include graphcomment.html %}
+  {% include disqus.html %}
 </div>
 {% endif %}
 
@@ -35,7 +35,7 @@ layout: default
 <!-- Related Posts -->
 {% if site.related_posts.size >= 1 %}
 <div id="post-nav">
-  <center><h3>Related Posts</h3></center>
+  <center><h3>You May Also Like</h3></center>
   {% for related_post in site.related_posts limit: 5 %}
     <a href="{{ related_post.url }}">{{ related_post.title }}</a>
   {% endfor %}
