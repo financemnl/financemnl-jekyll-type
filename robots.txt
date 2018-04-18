@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /sitemap/
 Disallow: /post/
+Disallow: /tags/
 Sitemap: https://financemnl.com/sitemap.xml
