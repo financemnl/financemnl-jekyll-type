@@ -7,10 +7,18 @@ locale: "en-US"
 # Netlify Tweaks
 include: "_headers"
 
+# OpenGraph
 twitter:
   username: "mmistakes-theme"
-
 og_image: /assets/img/avatar.png
+
+# Archives for breadcrumbs
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
