@@ -30,7 +30,12 @@
 
     <!-- Font Awesome -->
     <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/font-awesome.min.css"> -->
+    <script type='text/javascript'>
+      //<![CDATA[
+      function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }loadCSS("{{ site.baseurl }}/assets/css/font-awesome.min.css");
+      //]]>
+    </script>
 
     <!-- Google Fonts -->
     <style>
