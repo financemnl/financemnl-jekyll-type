@@ -8,8 +8,8 @@ locale: "en-US"
 include: "_headers"
 
 # OpenGraph
-twitter:
-  username: "mmistakes-theme"
+author:
+  twitter: "financemnl"
 og_image: /assets/img/avatar.png
 
 # THEME-SPECIFIC CONFIGURATION
