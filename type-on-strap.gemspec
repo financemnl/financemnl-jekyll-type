@@ -15,9 +15,9 @@ Gem::Specification.new do |spec|
     f.match(%r{^(assets/(js|css|fonts)|_(includes|layouts|sass)/|(LICENSE|README.md))}i)
   end
 
-  spec.required_ruby_version = '~> 2.5.0'
+  spec.required_ruby_version = '~> 2.3'
 
-  spec.add_runtime_dependency "jekyll", "~> 3.3"
+  spec.add_runtime_dependency "jekyll", "~> 3.5"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.3"
 
