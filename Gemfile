@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
-group :jekyll_plugins do
-  gem 'jekyll-tagging-related_posts'
+group :jekyll_plugins do:
   gem 'jekyll-sitemap'
   gem 'jekyll-last-modified-at'
 end
