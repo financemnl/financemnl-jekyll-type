@@ -16,7 +16,7 @@ facebook:
 twitter:
   username: "financemnl"
 
-logo: "/assets/img/avatar.png"
+logo: "https://financemnl.com/assets/img/avatar.png"
 
 social:
   name: financemnl
@@ -91,7 +91,6 @@ theme_settings:
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
-
 permalink: /posts/:slug
 
 # # FEATURED USERS/PORTFOLIO
