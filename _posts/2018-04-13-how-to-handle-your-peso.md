@@ -2,7 +2,7 @@
 layout: post
 title: How to Handle Your Peso
 image: "assets/img/featured/coffee-bracelet.jpg"
-thumbnail: "assets/img/featured/coffee-bracelet.jpg"
+thumbnail: "assets/img/thumbnails/coffee-bracelet.jpg"
 tags:
   - personal finance
   - emergency fund
