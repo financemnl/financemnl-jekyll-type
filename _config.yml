@@ -5,6 +5,7 @@ title: FinanceMNL # site's title
 author: FinanceMNL
 description: "A Filipino Millennial's Approach on Personal Finance." # used by search engines
 locale: "en-US"
+
 # Netlify Tweaks
 include: ["_headers","_redirects"]
 
