@@ -103,8 +103,6 @@ highlighter: rouge
 sass:
   sass_dir: _sass
   style: :compressed
-compress_images:
-  images_path: "assets/img/**/*.{gif,png,jpg,jpeg,svg}"
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap, jekyll-compress-images]
 #theme: type-on-strap # Uncomment if using the theme as a jekyll theme gem
 exclude: ["Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", "LICENSE", "README.md", "screenshot.png"]
