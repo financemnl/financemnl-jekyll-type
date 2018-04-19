@@ -10,9 +10,6 @@ locale: "en-US"
 include: ["_headers","_redirects"]
 
 # seo / open graph
-facebook:
-  publisher: FinanceMNL
-
 twitter:
   username: "financemnl"
 
