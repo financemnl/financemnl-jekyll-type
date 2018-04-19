@@ -15,7 +15,7 @@ facebook:
 twitter:
   username: "financemnl"
 
-logo: /assets/img/avatar.png
+logo: "/assets/img/avatar.png"
 
 social:
   name: financemnl
