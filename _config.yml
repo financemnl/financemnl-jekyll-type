@@ -8,10 +8,20 @@ locale: "en-US"
 # Netlify Tweaks
 include: ["_headers","_redirects"]
 
-# seo
-author:
-  twitter: "financemnl"
-  og_image: /assets/img/avatar.png
+# seo / open graph
+facebook:
+  publisher: FinanceMNL
+
+twitter:
+  username: "financemnl"
+
+logo: /assets/img/avatar.png
+
+social:
+  name: financemnl
+  links:
+    - https://twitter.com/financemnl
+    - https://www.facebook.com/financemnl
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
